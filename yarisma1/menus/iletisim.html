@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,500&display=swap" rel="stylesheet">
+    <title>İletişim</title>
+</head>
+
+<body>
+
+
+    <button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
+
+    <script>
+        // Get the button
+        let mybutton = document.getElementById("myBtn");
+
+        // When the user scrolls down 20px from the top of the document, show the button
+        window.onscroll = function () { scrollFunction() };
+
+        function scrollFunction() {
+            if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+                mybutton.style.display = "block";
+            } else {
+                mybutton.style.display = "none";
+            }
+        }
+
+        // When the user clicks on the button, scroll to the top of the document
+        function topFunction() {
+            document.body.scrollTop = 0;
+            document.documentElement.scrollTop = 0;
+        }
+    </script>
+
+    <div class="container">
+
+        <!-- <div class="social-box"></div> -->
+
+        <div class="header">
+            <div class="header-menus">
+                <ul class="menu">
+                    <li>
+                        <a href="\index.html" class="buttons peach">Ana Sayfa</a>
+                    </li>
+                    <li>
+                        <a href="\menus/drama.html" class="buttons peach">Diziler</a>
+                    </li>
+                    <li>
+                        <a href="\menus/animes.html" class="buttons peach">Animeler</a>
+                    </li>
+                    <li>
+                        <a href="\menus/movies.html" class="buttons peach">Filmler</a>
+                    </li>
+                    <li>
+                        <a href="\menus/iletisim.html" class="buttons peach">İletişim</a>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="header-img">
+                <a href="\index.html"> <img src="\images/yuembcinema3.png" alt=""></a>
+
+            </div>
+
+
+            <div class="header-social">
+                <div class="header-icon">
+                    <ul class="header-icon-menu">
+                        <li> <a href="https://www.instagram.com/" target="_blank">
+                                <img src="\images/instagram.png" alt="" class="header-icon-size">
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://www.youtube.com/channel/UCJAOHtMDUgMFDqzQxxImyYg" target="_blank">
+                                <img src="\images/youtube.png" alt="" class="header-icon-size">
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://www.twitch.tv/yuemb" target="_blank">
+                                <img src="\images/twitch.png" alt="" class="header-icon-size">
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://www.facebook.com/" target="_blank">
+                                <img src="\images/facebook.png" alt="" class="header-icon-size">
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://www.reddit.com/" target="_blank">
+                                <img src="\images/reddit.png" alt="" class="header-icon-size">
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+
+
+            </div>
+
+        </div>
+
+
+        <div class="main">
+            <div class="info-left">
+                <h1 class="title">Bize Ulaşın</h1>
+                <p><strong><br> Tel: 0554 673 55 54 <br><br> E-mail: emirhanbaysal35@hotmail.com </strong></p>
+
+            </div>
+
+
+
+            <div class="info-right">
+
+                <div class="info-address">
+
+                    <h1 class="title">Adresimiz</h1>
+                    <p><strong> Ataköy 2-5-6. Kısım Mah.19 Mayıs Cad. Ataköy 5. Kısım Sitesi A/4 Blok No 19 iç Kapı No:
+                            66 Bakırköy/İstanbul <br><br>Yol Tarifi: Ataköy A Plus AVM'nin giriş kapısına sırtınızı
+                            verin tam karşınızdaki bina </strong></p>
+
+
+                </div>
+                <div class="map">
+                    <iframe class="map-size"
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3012.1148163415405!2d28.850292792322097!3d40.97896661823351!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14caa34ec550ea8f%3A0x7eb7ff480b74e415!2zNDDCsDU4JzQyLjkiTiAyOMKwNTEnMDYuMiJF!5e0!3m2!1str!2str!4v1669595588442!5m2!1str!2str"
+                        width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                        referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+
+            </div>
+
+        </div>
+
+
+
+        <div class="footer">
+
+            <div class="footer-icon">
+                <a href="\index.html"> <img src="\images/yuembcinema3.png" alt=""></a>
+            </div>
+
+            <div class="inside-footer">
+                <ul>
+                    <li> <a href="\index.html" class="footer-button">Ana Sayfa</a></li>
+                    <li><a href="\menus/drama.html" class="footer-button">Diziler</a></li>
+                    <li><a href="\menus/animes.html" class="footer-button">Animeler</a></li>
+                    <li><a href="\menus/movies.html" class="footer-button">Filmler</a></li>
+                    <li><a href="\menus/iletisim.html" class="footer-button">İletişim</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-social">
+                <a href="https://www.instagram.com/" target="_blank">
+                    <img src="\images/instagram.png" alt="" class="footer-icon-size">
+                </a>
+                <a href="https://www.youtube.com/channel/UCJAOHtMDUgMFDqzQxxImyYg" target="_blank">
+                    <img src="\images/youtube.png" alt="" class="footer-icon-size">
+                </a>
+                <a href="https://www.twitch.tv/yuemb" target="_blank">
+                    <img src="\images/twitch.png" alt="" class="footer-icon-size">
+                </a>
+                <a href="https://www.facebook.com/" target="_blank">
+                    <img src="\images/facebook.png" alt="" class="footer-icon-size">
+                </a>
+                <a href="https://www.reddit.com/" target="_blank">
+                    <img src="\images/reddit.png" alt="" class="footer-icon-size">
+                </a>
+            </div>
+        </div>
+
+
+
+    </div>
+
+</body>
+
+</html>

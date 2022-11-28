@@ -1,0 +1,321 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,500&display=swap" rel="stylesheet">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <title>Animeler</title>
+</head>
+
+<body>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+
+    <button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
+
+    <script>
+        // Get the button
+        let mybutton = document.getElementById("myBtn");
+
+        // When the user scrolls down 20px from the top of the document, show the button
+        window.onscroll = function () { scrollFunction() };
+
+        function scrollFunction() {
+            if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+                mybutton.style.display = "block";
+            } else {
+                mybutton.style.display = "none";
+            }
+        }
+
+        // When the user clicks on the button, scroll to the top of the document
+        function topFunction() {
+            document.body.scrollTop = 0;
+            document.documentElement.scrollTop = 0;
+        }
+    </script>
+
+    <div class="container">
+
+        <!-- <div class="social-box"></div> -->
+
+        <div class="header">
+            <div class="header-menus">
+                <ul class="menu">
+                    <li>
+                        <a href="\index.html" class="buttons peach">Ana Sayfa</a>
+                    </li>
+                    <li>
+                        <a href="\menus/drama.html" class="buttons peach">Diziler</a>
+                    </li>
+                    <li>
+                        <a href="\menus/animes.html" class="buttons peach">Animeler</a>
+                    </li>
+                    <li>
+                        <a href="\menus/movies.html" class="buttons peach">Filmler</a>
+                    </li>
+                    <li>
+                        <a href="\menus/iletisim.html" class="buttons peach">İletişim</a>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="header-img">
+                <a href="\index.html"> <img src="\images/yuembcinema3.png" alt=""></a>
+
+            </div>
+
+
+            <div class="header-social">
+                <div class="header-icon">
+                    <ul class="header-icon-menu">
+                        <li> <a href="https://www.instagram.com/" target="_blank">
+                                <img src="\images/instagram.png" alt="" class="header-icon-size">
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://www.youtube.com/channel/UCJAOHtMDUgMFDqzQxxImyYg" target="_blank">
+                                <img src="\images/youtube.png" alt="" class="header-icon-size">
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://www.twitch.tv/yuemb" target="_blank">
+                                <img src="\images/twitch.png" alt="" class="header-icon-size">
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://www.facebook.com/" target="_blank">
+                                <img src="\images/facebook.png" alt="" class="header-icon-size">
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://www.reddit.com/" target="_blank">
+                                <img src="\images/reddit.png" alt="" class="header-icon-size">
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+
+
+            </div>
+
+        </div>
+
+
+        <div class="main">
+            <div class="left">
+                <div class="left-in-side onepiece"  data-aos="flip-left" data-aos-delay="100" data-aos-duration="1000">
+
+                </div>
+                <div class="right-in-side">
+                    <h1 class="title">One Piece</h1>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam harum qui mollitia provident hic
+                        veritatis, itaque quasi ipsam nemo laboriosam totam eum veniam esse cumque! Totam provident
+                        cumque in vel?
+                        Non, illo. Quaerat recusandae nostrum veritatis ea dolor labore aspernatur quod, consequuntur in
+                        tenetur nam et, modi quis odit reiciendis voluptatem qui deserunt illo repellendus. Alias culpa
+                        soluta incidunt quasi! <br><br><br> <strong> İzlemek için tıklayınız</strong></p>
+                    <div class="go-out">
+                        <a href="https://www.turkanime.co/anime/one-piece" target="_blank">
+                            <img src="/images/arrow.png" alt="">
+                        </a>
+                    </div>
+                </div>
+                <div class="left-in-side sword-art-online"  data-aos="flip-left" data-aos-delay="250" data-aos-duration="1000"></div>
+                <div class="right-in-side">
+                    <h1 class="title">Sword Art Online</h1>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam harum qui mollitia provident hic
+                        veritatis, itaque quasi ipsam nemo laboriosam totam eum veniam esse cumque! Totam provident
+                        cumque in vel?
+                        Non, illo. Quaerat recusandae nostrum veritatis ea dolor labore aspernatur quod, consequuntur in
+                        tenetur nam et, modi quis odit reiciendis voluptatem qui deserunt illo repellendus. Alias culpa
+                        soluta incidunt quasi! <br><br><br> <strong> İzlemek için tıklayınız</strong></p>
+                    <div class="go-out">
+                        <a href="https://www.turkanime.co/anime/sword-art-online" target="_blank">
+                            <img src="/images/arrow.png" alt="">
+                        </a>
+                    </div>
+                </div>
+                <div class="left-in-side fullmetal-alchemist-brotherhood"  data-aos="flip-left" data-aos-delay="350" data-aos-duration="1000"></div>
+                <div class="right-in-side">
+                    <h1 class="title">Fullmetal Alchemist</h1>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam harum qui mollitia provident hic
+                        veritatis, itaque quasi ipsam nemo laboriosam totam eum veniam esse cumque! Totam provident
+                        cumque in vel?
+                        Non, illo. Quaerat recusandae nostrum veritatis ea dolor labore aspernatur quod, consequuntur in
+                        tenetur nam et, modi quis odit reiciendis voluptatem qui deserunt illo repellendus. Alias culpa
+                        soluta incidunt quasi! <br><br><br> <strong> İzlemek için tıklayınız</strong></p>
+                    <div class="go-out">
+                        <a href="https://www.turkanime.co/anime/fullmetal-alchemist-brotherhood" target="_blank">
+                            <img src="/images/arrow.png" alt="">
+                        </a>
+                    </div>
+                </div>
+                <div class="left-in-side naruto"  data-aos="flip-left" data-aos-delay="100" data-aos-duration="1000"></div>
+                <div class="right-in-side">
+                    <h1 class="title">Naruto</h1>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam harum qui mollitia provident hic
+                        veritatis, itaque quasi ipsam nemo laboriosam totam eum veniam esse cumque! Totam provident
+                        cumque in vel?
+                        Non, illo. Quaerat recusandae nostrum veritatis ea dolor labore aspernatur quod, consequuntur in
+                        tenetur nam et, modi quis odit reiciendis voluptatem qui deserunt illo repellendus. Alias culpa
+                        soluta incidunt quasi! <br><br><br> <strong> İzlemek için tıklayınız</strong></p>
+                    <div class="go-out">
+                        <a href="https://www.turkanime.co/anime/naruto-shippuuden" target="_blank">
+                            <img src="/images/arrow.png" alt="">
+                        </a>
+                    </div>
+                </div>
+                <div class="left-in-side hxh"  data-aos="flip-left" data-aos-delay="100" data-aos-duration="1000"></div>
+                <div class="right-in-side">
+                    <h1 class="title">Hunter x Hunter</h1>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam harum qui mollitia provident hic
+                        veritatis, itaque quasi ipsam nemo laboriosam totam eum veniam esse cumque! Totam provident
+                        cumque in vel?
+                        Non, illo. Quaerat recusandae nostrum veritatis ea dolor labore aspernatur quod, consequuntur in
+                        tenetur nam et, modi quis odit reiciendis voluptatem qui deserunt illo repellendus. Alias culpa
+                        soluta incidunt quasi! <br><br><br> <strong> İzlemek için tıklayınız</strong></p>
+                    <div class="go-out">
+                        <a href="https://www.turkanime.co/anime/hunter-x-hunter-2011" target="_blank">
+                            <img src="/images/arrow.png" alt="">
+                        </a>
+                    </div>
+                </div>
+
+            </div>
+
+
+
+            <div class="right">
+                <div class="left-side kaguya"data-aos="flip-right" data-aos-delay="100" data-aos-duration="1000"></div>
+                <div class="right-side">
+                    <h1 class="title">Kaguya Sama</h1>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam harum qui mollitia provident hic
+                        veritatis, itaque quasi ipsam nemo laboriosam totam eum veniam esse cumque! Totam provident
+                        cumque in vel?
+                        Non, illo. Quaerat recusandae nostrum veritatis ea dolor labore aspernatur quod, consequuntur in
+                        tenetur nam et, modi quis odit reiciendis voluptatem qui deserunt illo repellendus. Alias culpa
+                        soluta incidunt quasi! <br><br><br> <strong> İzlemek için tıklayınız</strong></p>
+                    <div class="go-out">
+                        <a href="https://www.turkanime.co/anime/kaguya-sama-wa-kokurasetai-tensai-tachi-no-renai-zunousen"
+                            target="_blank">
+                            <img src="/images/arrow.png" alt="">
+                        </a>
+                    </div>
+                </div>
+                <div class="left-side Jujutsu-Kaisen"data-aos="flip-right" data-aos-delay="250" data-aos-duration="1000"></div>
+                <div class="right-side">
+                    <h1 class="title">Jujutsu Kaisen</h1>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam harum qui mollitia provident hic
+                        veritatis, itaque quasi ipsam nemo laboriosam totam eum veniam esse cumque! Totam provident
+                        cumque in vel?
+                        Non, illo. Quaerat recusandae nostrum veritatis ea dolor labore aspernatur quod, consequuntur in
+                        tenetur nam et, modi quis odit reiciendis voluptatem qui deserunt illo repellendus. Alias culpa
+                        soluta incidunt quasi! <br><br><br> <strong> İzlemek için tıklayınız</strong></p>
+                    <div class="go-out">
+                        <a href="https://www.turkanime.co/anime/jujutsu-kaisen" target="_blank">
+                            <img src="/images/arrow.png" alt="">
+                        </a>
+                    </div>
+                </div>
+                <div class="left-side spyxfamily"data-aos="flip-right" data-aos-delay="350" data-aos-duration="1000"></div>
+                <div class="right-side">
+                    <h1 class="title">Spy x Family</h1>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam harum qui mollitia provident hic
+                        veritatis, itaque quasi ipsam nemo laboriosam totam eum veniam esse cumque! Totam provident
+                        cumque in vel?
+                        Non, illo. Quaerat recusandae nostrum veritatis ea dolor labore aspernatur quod, consequuntur in
+                        tenetur nam et, modi quis odit reiciendis voluptatem qui deserunt illo repellendus. Alias culpa
+                        soluta incidunt quasi! <br><br><br> <strong> İzlemek için tıklayınız</strong></p>
+                    <div class="go-out">
+                        <a href="https://www.turkanime.co/anime/spy-x-family" target="_blank">
+                            <img src="/images/arrow.png" alt="">
+                        </a>
+                    </div>
+                </div>
+                <div class="left-side Kimetsu-no-Yaiba"data-aos="flip-right" data-aos-delay="100" data-aos-duration="1000"></div>
+                <div class="right-side">
+                    <h1 class="title">Kimetsu no Yaiba</h1>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam harum qui mollitia provident hic
+                        veritatis, itaque quasi ipsam nemo laboriosam totam eum veniam esse cumque! Totam provident
+                        cumque in vel?
+                        Non, illo. Quaerat recusandae nostrum veritatis ea dolor labore aspernatur quod, consequuntur in
+                        tenetur nam et, modi quis odit reiciendis voluptatem qui deserunt illo repellendus. Alias culpa
+                        soluta incidunt quasi! <br><br><br> <strong> İzlemek için tıklayınız</strong></p>
+                    <div class="go-out">
+                        <a href="https://www.turkanime.co/anime/kimetsu-no-yaiba-yuukaku-hen" target="_blank">
+                            <img src="/images/arrow.png" alt="">
+                        </a>
+                    </div>
+                </div>
+                <div class="left-side konosuba"data-aos="flip-right" data-aos-delay="100" data-aos-duration="1000"></div>
+                <div class="right-side">
+                    <h1 class="title">KonoSuba</h1>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam harum qui mollitia provident hic
+                        veritatis, itaque quasi ipsam nemo laboriosam totam eum veniam esse cumque! Totam provident
+                        cumque in vel?
+                        Non, illo. Quaerat recusandae nostrum veritatis ea dolor labore aspernatur quod, consequuntur in
+                        tenetur nam et, modi quis odit reiciendis voluptatem qui deserunt illo repellendus. Alias culpa
+                        soluta incidunt quasi! <br><br><br> <strong> İzlemek için tıklayınız</strong></p>
+                    <div class="go-out">
+                        <a href="https://www.turkanime.co/anime/kono-subarashii-sekai-ni-shukufuku-wo-kurenai-densetsu"
+                            target="_blank">
+                            <img src="/images/arrow.png" alt="">
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+
+
+        <div class="footer">
+
+            <div class="footer-icon">
+                <a href="\index.html"> <img src="\images/yuembcinema3.png" alt=""></a>
+            </div>
+
+            <div class="inside-footer">
+                <ul>
+                    <li> <a href="\index.html" class="footer-button">Ana Sayfa</a></li>
+                    <li><a href="\menus/drama.html" class="footer-button">Diziler</a></li>
+                    <li><a href="\menus/animes.html" class="footer-button">Animeler</a></li>
+                    <li><a href="\menus/movies.html" class="footer-button">Filmler</a></li>
+                    <li><a href="\menus/iletisim.html" class="footer-button">İletişim</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-social">
+                <a href="https://www.instagram.com/" target="_blank">
+                    <img src="\images/instagram.png" alt="" class="footer-icon-size">
+                </a>
+                <a href="https://www.youtube.com/channel/UCJAOHtMDUgMFDqzQxxImyYg" target="_blank">
+                    <img src="\images/youtube.png" alt="" class="footer-icon-size">
+                </a>
+                <a href="https://www.twitch.tv/yuemb" target="_blank">
+                    <img src="\images/twitch.png" alt="" class="footer-icon-size">
+                </a>
+                <a href="https://www.facebook.com/" target="_blank">
+                    <img src="\images/facebook.png" alt="" class="footer-icon-size">
+                </a>
+                <a href="https://www.reddit.com/" target="_blank">
+                    <img src="\images/reddit.png" alt="" class="footer-icon-size">
+                </a>
+            </div>
+        </div>
+
+
+
+    </div>
+</body>
+
+</html>

@@ -1,0 +1,681 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+    letter-spacing: 1.5px;
+
+}
+
+p {
+    color: #a7a7a7;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    list-style-type: none;
+}
+
+
+body {
+    background-color: #181a26;
+    /*46344e*/
+    /* background: linear-gradient(to top, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.03) 15%, rgba(0, 0, 0, 0.125) 30%, rgba(0, 0, 0, 0.25) 46%, rgba(0, 0, 0, 0.4) 61%, rgba(0, 0, 0, 0.553) 75%, rgba(0, 0, 0, 0.694) 88%, rgba(0, 0, 0, 0.8)); */
+}
+
+strong {
+    font-size: 24px;
+}
+
+
+.black {
+    background-color: black;
+}
+
+.red {
+    background-color: red;
+}
+
+.blue {
+    background-color: blue;
+}
+
+.green {
+    background-color: green;
+}
+
+.orange {
+    background-color: orange;
+}
+
+.skyblue {
+    background-color: skyblue;
+}
+
+.peach {
+    background-color: #9b9b9b;
+}
+
+
+
+/***************************************** 
+
+buna sonra bakıcaksın
+
+body{
+        background-color: rgba(44, 51, 49, 0.555);
+}
+****************************************/
+.container {
+    width: 85%;
+    margin: auto;
+}
+
+.social-box {
+    width: 100px;
+    height: 50px;
+    position: fixed;
+    background-color: gray;
+    bottom: 20px;
+    right: 50px;
+}
+
+.header {
+    width: 100%;
+    height: 225px;
+    /* border: solid 2px black; */
+    display: flex;
+    justify-content: space-between;
+    background-color: #212533;
+    /*424347    9b786f   eee2dc  efe2ba ffcb9a*/
+    border-radius: 0 0 1rem 1rem;
+}
+
+.header-menus {
+    width: 35%;
+    margin-top: 3rem;
+    margin-left: 1rem;
+
+}
+
+
+.header-img {
+    width: 25%;
+    margin-top: 1rem;
+
+}
+
+.menu {
+    display: flex;
+}
+
+.menu li:hover {
+    transition: 1s;
+    transform: scale(1.02);
+}
+
+.buttons {
+    width: 20%;
+    border: none;
+    padding: 14px 28px;
+    font-size: 16px;
+    cursor: pointer;
+    text-align: center;
+    margin-left: 0.5rem;
+    border-radius: 0.5rem;
+
+}
+
+.buttons:hover {
+    background-color: #46344e;
+    color: black;
+    transition: .5s;
+
+}
+
+
+
+.header-social {
+    width: 24%;
+    margin-top: 1.5rem;
+    position: relative;
+}
+
+.header-icon {
+    width: 100%;
+
+}
+
+.header-icon-size {
+    width: 60%;
+    max-height: 100%;
+    margin-left: 1rem;
+}
+
+.header-icon-menu {
+    display: flex;
+}
+
+.header-icon-menu li:hover {
+    transition: 1s;
+    transform: scale(1.04);
+}
+/********************************************/
+
+
+
+.register-menu{
+    display: flex;
+    position: absolute;
+    bottom: 4rem;
+    right: 2rem;
+}
+
+/************************************************/
+
+
+/* nav ul{
+    background-color: #cd5ac8;
+    padding: 20px;
+}
+
+nav ul li {
+    display: inline;
+}
+
+nav ul li a {
+text-decoration: none;
+color: white;
+margin: 20px;
+}
+
+nav ul li a:hover{
+    background-color: white;
+    color: #333;
+}
+ */
+
+.best-tab {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+
+}
+
+.best-tab-font {
+    color: #a7a7a7;
+    font-size: 4rem;
+}
+
+
+.main {
+    display: flex;
+}
+
+
+.left {
+    width: 50%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+}
+
+.right {
+    width: 50%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+
+
+.left-in-side {
+    width: 45%;
+    height: 350px;
+    margin-top: 2rem;
+    border-radius: 1rem;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+
+.left-in-side:hover {
+    transition: 0.5s;
+    transform: scale(1.02);
+}
+
+.left-side {
+    width: 45%;
+    height: 350px;
+    margin-top: 2rem;
+    margin-left: 2rem;
+    border-radius: 1rem;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+
+.left-side:hover {
+    transition: 0.5s;
+    transform: scale(1.02);
+}
+
+
+.right-in-side {
+    width: 50%;
+    height: 350px;
+    margin-top: 2rem;
+    margin-right: 2rem;
+    border-radius: 1rem;
+    text-align: center;
+    padding: 2rem;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    position: relative;
+
+}
+
+.right-in-side:hover {
+    transition: 0.5s;
+    transform: scale(1.02);
+}
+
+.go-out {
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    right: 4rem;
+    bottom: 1.5rem;
+    /* background-image: url(/images/arrow-up.png); */
+
+}
+
+.title {
+    color: #a7a7a7;
+    margin-bottom: 1rem;
+
+}
+
+.right-side {
+    width: 50%;
+    height: 350px;
+    margin-top: 2rem;
+    border-radius: 1rem;
+    text-align: center;
+    padding: 2rem;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    position: relative;
+}
+
+.right-side:hover {
+    transition: 0.5s;
+    transform: scale(1.01);
+}
+
+
+.footer {
+    width: 100%;
+    height: 400px;
+    /* position: absolute;
+    bottom: 0; */
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: #212533;
+    margin-top: 2rem;
+    border-radius: 1rem 1rem 0 0;
+
+}
+
+
+.footer-icon {
+    width: 25%;
+    text-align: center;
+
+}
+
+.footer-icon-size {
+    width: 15%;
+    margin-left: 1rem;
+}
+
+.inside-footer {
+    width: 25%;
+    text-align: center;
+}
+
+.footer-social {
+
+    width: 19%;
+    text-align: center;
+
+}
+
+
+.footer-button {
+    color: #9b9b9b;
+    font-size: 26px;
+
+}
+
+
+.DescendantsofTheSun {
+    max-width: 100%;
+    max-height: 100%;
+    background-size: cover;
+    border-radius: 1rem;
+    background-image: url(/images/DescendantsofTheSun.png);
+}
+
+.twow {
+    max-width: 100%;
+    max-height: 100%;
+    background-size: cover;
+    border-radius: 1rem;
+    background-image: url(/images/2w.png)
+}
+
+.legend-of-blue-sea {
+    max-width: 100%;
+    max-height: 100%;
+    background-size: cover;
+    border-radius: 1rem;
+    background-image: url(/images/TheLegendOfTheBlueSea.png)
+}
+
+.The-Sound-of-Your-Heart {
+    max-width: 100%;
+    max-height: 100%;
+    background-size: cover;
+    border-radius: 1rem;
+    background-image: url(/images/The-Sound-of-Your-Heart.png)
+}
+
+.My-Love-From-The-Star {
+    max-width: 100%;
+    max-height: 100%;
+    background-size: cover;
+    border-radius: 1rem;
+    background-image: url(/images/My-Love-From-The-Star.png)
+}
+
+
+.Crash-Landing-On-You {
+    max-width: 100%;
+    max-height: 100%;
+    background-size: cover;
+    border-radius: 1rem;
+    background-image: url(/images/Crash-Landing-On-You.png)
+}
+
+.vincenzo {
+    max-width: 100%;
+    max-height: 100%;
+    background-size: cover;
+    border-radius: 1rem;
+    background-image: url(/images/vincenzo.png)
+}
+
+.When-The-Canellia-Blooms {
+    max-width: 100%;
+    max-height: 100%;
+    background-size: cover;
+    border-radius: 1rem;
+    background-image: url(/images/When-The-Canellia-Blooms.png)
+}
+
+.Ist-Okay-To-Not-Be-Okay {
+    max-width: 100%;
+    max-height: 100%;
+    background-size: cover;
+    border-radius: 1rem;
+    background-image: url(/images/Ist-Okay-To-Not-Be-Okay.png)
+}
+
+.Hotel-Del-Luna {
+    max-width: 100%;
+    max-height: 100%;
+    background-size: cover;
+    border-radius: 1rem;
+    background-image: url(/images/Hotel-Del-Luna.png)
+}
+
+.onepiece {
+    max-width: 100%;
+    max-height: 100%;
+    background-size: cover;
+    border-radius: 1rem;
+    background-image: url(/images/onepiece.png)
+}
+
+.sword-art-online {
+    max-width: 100%;
+    max-height: 100%;
+    background-size: cover;
+    border-radius: 1rem;
+    background-image: url(/images/sword-art-online.png)
+}
+
+.fullmetal-alchemist-brotherhood {
+    max-width: 100%;
+    max-height: 100%;
+    background-size: cover;
+    border-radius: 1rem;
+    background-image: url(/images/fullmetal-alchemist-brotherhood.png)
+}
+
+.naruto {
+    max-width: 100%;
+    max-height: 100%;
+    background-size: cover;
+    border-radius: 1rem;
+    background-image: url(/images/naruto.png)
+}
+
+.hxh {
+    max-width: 100%;
+    max-height: 100%;
+    background-size: cover;
+    border-radius: 1rem;
+    background-image: url(/images/hxh.png)
+}
+
+.kaguya {
+    max-width: 100%;
+    max-height: 100%;
+    background-size: cover;
+    border-radius: 1rem;
+    background-image: url(/images/kaguya.png)
+}
+
+.Jujutsu-Kaisen {
+    max-width: 100%;
+    max-height: 100%;
+    background-size: cover;
+    border-radius: 1rem;
+    background-image: url(/images/Jujutsu-Kaisen.png)
+}
+
+.spyxfamily {
+    max-width: 100%;
+    max-height: 100%;
+    background-size: cover;
+    border-radius: 1rem;
+    background-image: url(/images/spyxfamily.png)
+}
+
+.Kimetsu-no-Yaiba {
+    max-width: 100%;
+    max-height: 100%;
+    background-size: cover;
+    border-radius: 1rem;
+    background-image: url(/images/Kimetsu-no-Yaiba.png)
+}
+
+.konosuba {
+    max-width: 100%;
+    max-height: 100%;
+    background-size: cover;
+    border-radius: 1rem;
+    background-image: url(/images/konosuba.png)
+}
+
+.inglourious-basterds {
+    max-width: 100%;
+    max-height: 100%;
+    background-size: cover;
+    border-radius: 1rem;
+    background-image: url(/images/inglourious-basterds.png)
+}
+
+.sherlock-holmes {
+    max-width: 100%;
+    max-height: 100%;
+    background-size: cover;
+    border-radius: 1rem;
+    background-image: url(/images/sherlock-holmes.png)
+}
+
+.batman-begins {
+    max-width: 100%;
+    max-height: 100%;
+    background-size: cover;
+    border-radius: 1rem;
+    background-image: url(/images/batman-begins.png)
+}
+
+.lodr {
+    max-width: 100%;
+    max-height: 100%;
+    background-size: cover;
+    border-radius: 1rem;
+    background-image: url(/images/lodr.png)
+}
+
+.the-matrix {
+    max-width: 100%;
+    max-height: 100%;
+    background-size: cover;
+    border-radius: 1rem;
+    background-image: url(/images/the-matrix.png)
+}
+
+.karayip {
+    max-width: 100%;
+    max-height: 100%;
+    background-size: cover;
+    border-radius: 1rem;
+    background-image: url(/images/karayip.png)
+}
+
+.truva {
+    max-width: 100%;
+    max-height: 100%;
+    background-size: cover;
+    border-radius: 1rem;
+    background-image: url(/images/truva.png)
+}
+
+.inception {
+    max-width: 100%;
+    max-height: 100%;
+    background-size: cover;
+    border-radius: 1rem;
+    background-image: url(/images/inception.png)
+}
+
+.interstellar {
+    max-width: 100%;
+    max-height: 100%;
+    background-size: cover;
+    border-radius: 1rem;
+    background-image: url(/images/interstellar.png)
+}
+
+.leon-de-professional {
+    max-width: 100%;
+    max-height: 100%;
+    background-size: cover;
+    border-radius: 1rem;
+    background-image: url(/images/leon-de-professional.png)
+}
+
+/************************************************************/
+/*          burası yukarı gönderme butonunun olduğu yer     */
+#myBtn {
+    display: none;
+    /* Hidden by default */
+    position: fixed;
+    /* Fixed/sticky position */
+    bottom: 20px;
+    /* Place the button at the bottom of the page */
+    right: 30px;
+    /* Place the button 30px from the right */
+    z-index: 99;
+    /* Make sure it does not overlap */
+    border: none;
+    /* Remove borders */
+    outline: none;
+    /* Remove outline */
+    background-color: #19cffc;
+    /* Set a background color */
+    color: white;
+    /* Text color */
+    cursor: pointer;
+    /* Add a mouse pointer on hover */
+    padding: 15px;
+    /* Some padding */
+    border-radius: 10px;
+    /* Rounded corners */
+    font-size: 18px;
+    /* Increase font size */
+}
+
+#myBtn:hover {
+    background-color: #555;
+    /* Add a dark-grey background on hover */
+}
+
+/************************************************************/
+.map{
+    width: 50%;
+    height: 350px;
+}
+.map-size{
+    border-radius: 2rem;
+    margin-top: 2rem;
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.info-left {
+    width: 50%;
+    height: 350px;
+    margin-top: 2rem;
+    margin-right: 2rem;
+    border-radius: 1rem;
+    text-align: center;
+    padding: 2rem;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+
+}
+
+.info-right {
+    width: 50%;
+    display: flex;
+
+    justify-content: space-between;
+}
+
+.info-address {
+    width: 50%;
+    height: 350px;
+    margin-top: 2rem;
+    margin-right: 2rem;
+    border-radius: 1rem;
+    text-align: center;
+    padding: 2rem;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
